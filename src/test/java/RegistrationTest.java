@@ -1,6 +1,9 @@
 import com.codeborne.selenide.Condition;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 import java.time.LocalDate;
@@ -17,6 +20,13 @@ public class RegistrationTest {
         return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy",
                 new Locale("ru")));
     }
+
+
+    @BeforeAll
+    WebDriver driver = new ChromeDriver();
+    driver =new
+
+    ChromeDriver();
 
     @BeforeEach
     void setUp() {
