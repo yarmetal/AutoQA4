@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/sxuj1bjj4c1dtm2s?svg=true)](https://ci.appveyor.com/project/yarmetal/autoqa4)
+
 # Домашнее задание к занятию «2.2. Selenide»
 
 В качестве результата пришлите ссылку на ваш GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
